@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DictionaryApp</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="uzbekcha_engilizcha">Uzbekcha-Ingilizcha</string>
+    <string name="english_uzbek">English-Uzbek</string>
+    <string name="english_uzbek_dictionary">English-Uzbek Dictionary</string>
+    <string name="speech_string">Speech</string>
+    <string name="version_1_0_0">version.1.0.0</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/splashScreen">
+    <fragment
+        android:id="@+id/searchScreen"
+        android:name="com.example.dictionaryapp.precentation.screen.seacher.SearchScreen"
+        android:label="SearchScreen"
+        tools:layout="@layout/screen_seacher">
+        <action
+            android:id="@+id/action_searchScreen_to_likeScreen"
+            app:destination="@id/likeScreen" />
+        <argument
+            android:name="bool"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuScreen"
+        android:name="com.example.dictionaryapp.precentation.screen.menu.MenuScreen"
+        android:label="MenuScreen"
+        tools:layout="@layout/screeen_manu">
+        <action
+            android:id="@+id/action_menuScreen_to_searchScreen"
+            app:destination="@id/searchScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/likeScreen"
+        android:name="com.example.dictionaryapp.precentation.screen.like.LikeScreen"
+        android:label="LikeScreen"
+        tools:layout="@layout/screeen_like"/>
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.dictionaryapp.precentation.screen.spalash.SplashScreen"
+        android:label="SplashScreen"
+        tools:layout="@layout/screen_splash">
+        <action
+            android:id="@+id/action_splashScreen_to_menuScreen"
+            app:destination="@id/menuScreen" />
+    </fragment>
+</navigation>
