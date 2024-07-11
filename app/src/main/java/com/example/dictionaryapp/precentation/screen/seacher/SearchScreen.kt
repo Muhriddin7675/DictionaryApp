@@ -17,7 +17,6 @@ import android.widget.SearchView
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AlertDialog
 import androidx.core.os.bundleOf
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
@@ -31,7 +30,6 @@ import com.example.dictionaryapp.databinding.ScreenSeacherBinding
 import com.example.dictionaryapp.precentation.adapter.DictionaryAdapter
 import com.example.dictionaryapp.precentation.dialog.BottomSheetDialog
 import com.example.dictionaryapp.precentation.myLog
-import com.example.dictionaryapp.precentation.screen.like.LikeScreen
 import java.util.Locale
 
 @Suppress("DEPRECATION")
